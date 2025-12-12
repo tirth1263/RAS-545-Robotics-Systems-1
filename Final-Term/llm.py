@@ -12,7 +12,7 @@ from langchain_core.messages import HumanMessage, SystemMessage
 from datetime import datetime
 from pathlib import Path
 
-# API_KEY_GROQ = "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"
+API_KEY_GROQ = ""
 os.environ["GROQ_API_KEY"] = API_KEY_GROQ
 
 USB_PORT = '/dev/ttyACM0'
