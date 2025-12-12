@@ -1,0 +1,313 @@
+{
+  "gripper_status": "EMPTY",
+  "holding_block": null,
+  "blocks": {
+    "red_1": {
+      "color": "red",
+      "id": 1,
+      "pixel_x": 136,
+      "pixel_y": 197,
+      "original_x": 460,
+      "original_y": 194,
+      "current_position": {
+        "x": 361,
+        "y": 361,
+        "z": 17.9
+      },
+      "stack_level": 1,
+      "blocks_below": [
+        "red_1"
+      ]
+    },
+    "red_2": {
+      "color": "red",
+      "id": 2,
+      "pixel_x": 330,
+      "pixel_y": 165,
+      "original_x": 231,
+      "original_y": 239,
+      "current_position": {
+        "x": 541,
+        "y": 221,
+        "z": 17.9
+      },
+      "stack_level": 1,
+      "blocks_below": [
+        "red_2"
+      ]
+    },
+    "green_1": {
+      "color": "green",
+      "id": 1,
+      "pixel_x": 424,
+      "pixel_y": 222,
+      "original_x": 397,
+      "original_y": 336,
+      "current_position": {
+        "x": 128,
+        "y": 311,
+        "z": 0.0
+      },
+      "stack_level": 0,
+      "blocks_below": []
+    },
+    "red_3": {
+      "color": "red",
+      "id": 3,
+      "pixel_x": 178,
+      "pixel_y": 311,
+      "original_x": 301,
+      "original_y": 363,
+      "current_position": {
+        "x": 178,
+        "y": 311,
+        "z": 0.0
+      },
+      "stack_level": 0,
+      "blocks_below": []
+    },
+    "blue_1": {
+      "color": "blue",
+      "id": 1,
+      "pixel_x": 128,
+      "pixel_y": 311,
+      "original_x": 437,
+      "original_y": 389,
+      "current_position": {
+        "x": 437,
+        "y": 389,
+        "z": 0
+      },
+      "stack_level": 0,
+      "blocks_below": []
+    },
+    "yellow_1": {
+      "color": "yellow",
+      "id": 1,
+      "pixel_x": 630,
+      "pixel_y": 89,
+      "original_x": 630,
+      "original_y": 89,
+      "current_position": {
+        "x": 630,
+        "y": 89,
+        "z": 0
+      },
+      "stack_level": 0,
+      "blocks_below": []
+    },
+    "blue_2": {
+      "color": "blue",
+      "id": 2,
+      "pixel_x": 411,
+      "pixel_y": 341,
+      "original_x": 411,
+      "original_y": 341,
+      "current_position": {
+        "x": 411,
+        "y": 341,
+        "z": 0
+      },
+      "stack_level": 0,
+      "blocks_below": []
+    },
+    "green_2": {
+      "color": "green",
+      "id": 2,
+      "pixel_x": 327,
+      "pixel_y": 408,
+      "original_x": 327,
+      "original_y": 408,
+      "current_position": {
+        "x": 327,
+        "y": 408,
+        "z": 0
+      },
+      "stack_level": 0,
+      "blocks_below": []
+    }
+  },
+  "conversation_history": [
+    {
+      "prompt": "pick up red block",
+      "action": "Failed",
+      "timestamp": "2025-12-03T18:33:40.181431",
+      "details": {}
+    },
+    {
+      "prompt": "pick up red block",
+      "action": "Success",
+      "timestamp": "2025-12-03T18:34:08.064853",
+      "details": {
+        "code_length": 716
+      }
+    },
+    {
+      "prompt": "pick up red block",
+      "action": "Failed",
+      "timestamp": "2025-12-03T18:47:35.335861",
+      "details": {}
+    },
+    {
+      "prompt": "pick up red block",
+      "action": "Failed",
+      "timestamp": "2025-12-03T18:47:49.169382",
+      "details": {}
+    },
+    {
+      "prompt": "pick up red block",
+      "action": "Success",
+      "timestamp": "2025-12-03T18:48:36.026626",
+      "details": {
+        "code_length": 690
+      }
+    },
+    {
+      "prompt": "pick up red block",
+      "action": "Failed",
+      "timestamp": "2025-12-03T18:57:03.963001",
+      "details": {}
+    },
+    {
+      "prompt": "pick up red block",
+      "action": "Failed",
+      "timestamp": "2025-12-03T18:57:13.801002",
+      "details": {}
+    },
+    {
+      "prompt": "pick up red block",
+      "action": "Success",
+      "timestamp": "2025-12-03T19:00:07.886318",
+      "details": {
+        "code_length": 814
+      }
+    },
+    {
+      "prompt": "pick up red block",
+      "action": "Success",
+      "timestamp": "2025-12-03T19:01:20.213789",
+      "details": {
+        "code_length": 758
+      }
+    },
+    {
+      "prompt": "pick up red block.",
+      "action": "Success",
+      "timestamp": "2025-12-03T19:04:08.574597",
+      "details": {
+        "code_length": 746
+      }
+    },
+    {
+      "prompt": "pick up the red block.",
+      "action": "Success",
+      "timestamp": "2025-12-03T19:22:00.107533",
+      "details": {
+        "code_length": 492
+      }
+    },
+    {
+      "prompt": "pick up the red block.",
+      "action": "Success",
+      "timestamp": "2025-12-03T19:23:43.797689",
+      "details": {
+        "code_length": 865
+      }
+    },
+    {
+      "prompt": "pick the red block.",
+      "action": "Success",
+      "timestamp": "2025-12-03T19:34:17.370645",
+      "details": {
+        "code_length": 270
+      }
+    },
+    {
+      "prompt": "place it on top of the blue block.",
+      "action": "Success",
+      "timestamp": "2025-12-03T19:34:56.317995",
+      "details": {
+        "code_length": 684
+      }
+    },
+    {
+      "prompt": "pick the red block and place it next to the green block.",
+      "action": "Success",
+      "timestamp": "2025-12-03T19:35:39.577840",
+      "details": {
+        "code_length": 1010
+      }
+    },
+    {
+      "prompt": "pick the red block and place it next to the green block.",
+      "action": "Success",
+      "timestamp": "2025-12-03T19:36:22.038102",
+      "details": {
+        "code_length": 945
+      }
+    },
+    {
+      "prompt": "pick the red block and place it next to the green block.",
+      "action": "Success",
+      "timestamp": "2025-12-03T19:37:00.085360",
+      "details": {
+        "code_length": 896
+      }
+    },
+    {
+      "prompt": "pick the red block and place it next to the green block.",
+      "action": "Success",
+      "timestamp": "2025-12-03T19:37:45.597886",
+      "details": {
+        "code_length": 831
+      }
+    },
+    {
+      "prompt": "pick the green block and place it on top of the blue block.",
+      "action": "Success",
+      "timestamp": "2025-12-03T19:38:26.148180",
+      "details": {
+        "code_length": 957
+      }
+    },
+    {
+      "prompt": "pick red block and keep it next to the blue block.",
+      "action": "Success",
+      "timestamp": "2025-12-03T19:54:33.955012",
+      "details": {
+        "code_length": 859
+      }
+    }
+  ],
+  "stack_map": {
+    "390,330": [
+      "green_1",
+      "red_2",
+      "red_1"
+    ],
+    "360,360": [
+      "red_1"
+    ],
+    "510,210": [
+      "red_2"
+    ],
+    "540,210": [
+      "red_2"
+    ],
+    "480,210": [
+      "red_3"
+    ],
+    "120,300": [
+      "green_1"
+    ],
+    "180,300": [
+      "red_3"
+    ]
+  },
+  "last_place_location": {
+    "x": 178,
+    "y": 311,
+    "z": 0.0
+  },
+  "timestamp": "2025-12-03T19:54:33.955041"
+}
